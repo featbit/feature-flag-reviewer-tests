@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SnapshotScan.App/SnapshotScan.App.csproj" />
+    <Project Path="src/SnapshotScan.Flags/SnapshotScan.Flags.csproj" />
+  </Folder>
+</Solution>
+

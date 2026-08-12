@@ -1,0 +1,2687 @@
+{
+  "schemaVersion": "1.5",
+  "scannerVersion": "0.3.0",
+  "status": "ANALYZED_WITH_UNRESOLVED",
+  "workspace": {
+    "entryPath": "SnapshotBase.slnx",
+    "entryKind": "SOLUTION",
+    "root": "."
+  },
+  "projects": [
+    {
+      "id": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "name": "SnapshotScan.Flags",
+      "path": "src/SnapshotScan.Flags/SnapshotScan.Flags.csproj",
+      "targetFramework": "net10.0",
+      "assemblyIdentity": "SnapshotScan.Flags, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "status": "LOADED"
+    },
+    {
+      "id": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "name": "SnapshotScan.App",
+      "path": "src/SnapshotScan.App/SnapshotScan.App.csproj",
+      "targetFramework": "net10.0",
+      "assemblyIdentity": "SnapshotScan.App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "status": "LOADED"
+    }
+  ],
+  "files": [
+    {
+      "id": "file:225136c36cfa58c95a426435cb87b130f4ff1a9d814e4ca3d864cf53f7838448",
+      "path": "src/SnapshotScan.App/SameNameBusinessClient.cs",
+      "contentHash": "ab3afbf8387f732268fdf22e5c650d5e6f2fc2639944419012cdb0205441ca39",
+      "generated": false,
+      "projectIds": [
+        "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c"
+      ]
+    },
+    {
+      "id": "file:51c303a0c2c71c605680fc9227ca64a417944efa62be1e46152ec9d3bbda9950",
+      "path": "$external/a3c6048bb4d9/SnapshotScan.Flags.GlobalUsings.g.cs",
+      "contentHash": "a3c6048bb4d922b1799a9977f84362a3787b68810cac67aa86ac3aa23295f227",
+      "generated": true,
+      "projectIds": [
+        "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf"
+      ]
+    },
+    {
+      "id": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+      "contentHash": "bcb57756b5b279dc5ad59b21ba85d2e37171366c26f4fcfe69ad5201f13534ea",
+      "generated": false,
+      "projectIds": [
+        "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c"
+      ]
+    },
+    {
+      "id": "file:73dcbc248670e9b3524e2d9b1d54ed08a963c5e2046fb7360e4e97024cb81ac7",
+      "path": "$external/7cdfb651842c/SnapshotScan.App.AssemblyInfo.cs",
+      "contentHash": "7cdfb651842c1869aec51476c3055f85815ffeb5dd263d8f7c9a1546a55bd5e7",
+      "generated": true,
+      "projectIds": [
+        "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c"
+      ]
+    },
+    {
+      "id": "file:849f210120c238c7d9e66f06adfb097157ac032a329c0cc241ab9175bc0b124a",
+      "path": "$external/a3c6048bb4d9/SnapshotScan.App.GlobalUsings.g.cs",
+      "contentHash": "a3c6048bb4d922b1799a9977f84362a3787b68810cac67aa86ac3aa23295f227",
+      "generated": true,
+      "projectIds": [
+        "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c"
+      ]
+    },
+    {
+      "id": "file:b62a0cae124e4af019e77e974302ba5f9a74c187b2dbec772e616dff261e2fa3",
+      "path": "$external/93d67476196e/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+      "contentHash": "93d67476196ebfc80d1d7d8844b91146cfd678d105f5ce635eb900ca40610c9b",
+      "generated": true,
+      "projectIds": [
+        "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+        "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c"
+      ]
+    },
+    {
+      "id": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+      "contentHash": "712cad4369a3c64948fd77fe0936ae8e0f0add534ebaf2bcec3b76882aa589f1",
+      "generated": false,
+      "projectIds": [
+        "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf"
+      ]
+    },
+    {
+      "id": "file:c50626ca9a9f2687a5d865c5d56c9560678ef4590831a7927577381bcf92340c",
+      "path": "$external/95c4f4e80444/SnapshotScan.Flags.AssemblyInfo.cs",
+      "contentHash": "95c4f4e80444e66af737332701c054105b96082f1a7d8fb0b725bc9e72f6253d",
+      "generated": true,
+      "projectIds": [
+        "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf"
+      ]
+    },
+    {
+      "id": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+      "contentHash": "d9e4024f864e63817804217cff53b8001f5da8c0c62d82e37eab1ce88faf4d64",
+      "generated": false,
+      "projectIds": [
+        "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": "flag:0b31cfbdea1471267a5944b6871073435a81d31e485eefa2dafa00bed445d0c9",
+      "key": null,
+      "keyExpression": "Conversion:302d5def021b",
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:d4c842fb5316d68d8d430ddb4bb866e5921cda0fcf772a2d6267fa5fa89f26c0"
+      ]
+    },
+    {
+      "id": "flag:0df1a55d88d12564e7038b2444fa59d13d042b0340a7f0a985228e2a2c3d4225",
+      "key": null,
+      "keyExpression": "key",
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:9925cdd7fcb0080f845f2a0c05662d0d910b828701c94767a6b4173fcca7f006"
+      ]
+    },
+    {
+      "id": "flag:49c7f6b25e59db02abef33b46803eacbbda0e48b21789c6b0f9d67fc0e1382ea",
+      "key": "acceptance.direct.string",
+      "keyExpression": null,
+      "evaluationTypes": [
+        "STRING"
+      ],
+      "referenceIds": [
+        "reference:a793f2ba26a0e08677d9d2922722f8713900e7935d83a1d2401d719626c4dba8"
+      ]
+    },
+    {
+      "id": "flag:4cb4cdeb76cab5d4d91f7d34b8589fb2f86c3f409f48001d565bfc76e3224f26",
+      "key": "acceptance.wrapper.fixed",
+      "keyExpression": null,
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:7a4e598c1bfc72b73786e69af8f31336a473fb55ae60a593f007511009ffde97",
+        "reference:dd1dcb7e485289bc3d69a49a63761b5a7daad854c84dff6538835bddeae5dc93"
+      ]
+    },
+    {
+      "id": "flag:5ea74e73fb11a840ed7af402c9d076417e48b54afe84a310d69dfaac98e1ea25",
+      "key": "acceptance.checkout.v2",
+      "keyExpression": null,
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:8c4860d18ff8ced1701c31dcf6b1e31e61446f97a277f2adf822febd9786ae85",
+        "reference:a01ec8f37f82aa269b771a3858192fb1fb2ee8e3c94114067b6b858edaf5345f"
+      ]
+    },
+    {
+      "id": "flag:8e4183432f097bffdf95c793325f33064571d40808206f49bfe32602487e7fe7",
+      "key": "acceptance.search.v3",
+      "keyExpression": null,
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:aa597070bc12823e1602fe9126cf350216c20b106eb8dc232c7d28efc85c74b8"
+      ]
+    },
+    {
+      "id": "flag:a6a06561a9be3aad76d59667eb5c05626d01cf107e13ed591488a46be1ed0cc5",
+      "key": null,
+      "keyExpression": "sinkKey",
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:3c80bc965b5f7aed1b16a0f5153e8de3ee4d5cfa4ac1efe3d92e43cc54973428"
+      ]
+    },
+    {
+      "id": "flag:ffbb0ec52163bd94a2532e5f6152e0bf3b3f0ee27eecd0c88a78eedf65ca1704",
+      "key": "acceptance.direct.boolean",
+      "keyExpression": null,
+      "evaluationTypes": [
+        "BOOLEAN"
+      ],
+      "referenceIds": [
+        "reference:12d2615cab8e09e1ae1dd20498960059204b24b43a87c3cfc6a789d3057eb04a"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "reference:12d2615cab8e09e1ae1dd20498960059204b24b43a87c3cfc6a789d3057eb04a",
+      "flagId": "flag:ffbb0ec52163bd94a2532e5f6152e0bf3b3f0ee27eecd0c88a78eedf65ca1704",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": true,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.direct.boolean",
+        "expression": "BooleanKey",
+        "fingerprint": "20331c3206cd22a2ecdade10cba3a51a5cd4c7beaf0a1791cc7bd5419fe06696"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "false",
+        "expression": "false",
+        "fingerprint": "8405dcce33af93cd13488094f86818c63a56fa33f371da782801e495edfef00f"
+      },
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      },
+      "containingSymbolId": "symbol:fd1ba4c502d6b353787391dd745964d4f7ebc48e57544c2297a7f1e741cfd106",
+      "containingSymbol": "SnapshotScan.Flags.DirectEvaluations.EvaluateAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+        "node:2bf43ff3e68605abc209c5358c2c83f2951217c1b9e9590689c9558bbcebcbbb",
+        "node:58483a35dd9ded0f64c02735438d00af536b564e6d31e110af83ca17290f3546",
+        "node:b03e604e8b547a71185330e96431ac4b8c69919be279becaa70d79a70baf7bea"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+        "node:b03e604e8b547a71185330e96431ac4b8c69919be279becaa70d79a70baf7bea"
+      ]
+    },
+    {
+      "id": "reference:3c80bc965b5f7aed1b16a0f5153e8de3ee4d5cfa4ac1efe3d92e43cc54973428",
+      "flagId": "flag:a6a06561a9be3aad76d59667eb5c05626d01cf107e13ed591488a46be1ed0cc5",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": true,
+      "key": {
+        "resolution": "EXPRESSION",
+        "valueType": "string",
+        "constantValue": null,
+        "expression": "sinkKey",
+        "fingerprint": "d7b1a2eaf0f4a67cf9380a14cabd91db875f4ba5493fdd967e74ee74607f525d"
+      },
+      "defaultValue": {
+        "resolution": "EXPRESSION",
+        "valueType": "bool",
+        "constantValue": null,
+        "expression": "sinkFallback",
+        "fingerprint": "dd91e01c192bf0a0bcf6a7e7613e48dc9c2e4fbded22234814314e1a5a8e9538"
+      },
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "containingSymbolId": "symbol:cc33ffca00ab824f30066c1dda77303a72d7284b7b827944262d1b27b42e3847",
+      "containingSymbol": "SnapshotScan.Flags.OpenFeatureBooleanGateway.EvaluateAsync(string, bool)",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:54bd4c94ec65d2763c77e37c11cf730a93e0bee009b5a75fa83bbc468b3b75ee",
+        "node:6d758f1bcdfb039872f4e3121cc88023fe7b3d4e80041cc699a01b449c1b3f84",
+        "node:dcc925b04ae381ac67ca68315e1b614372b4b979ada3ae26559e49dfd561c89b",
+        "node:e5500d0c41efc18f1348a88cd69471a1d2bead7cd478a7ebcd64f619e8746a19",
+        "node:ee7da88c196fac64aa50c899b4ab636d0f01fa75c55c79915c7ef0272d264e2b",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+        "node:f97ab4f0dea91888ed83dfcb85a5e277f04a44eb071b0e49d0efd8c95eaf0058"
+      ],
+      "unresolvedIds": [
+        "unresolved:2e85ed506020cb1043d0777c4dedd3152d9fe93a0cb168513979d7f55185b9fe",
+        "unresolved:6f1e30491377d273b788ff3cfcf3b7956cc5f6e034ef7c251798761b7bbd4d0e",
+        "unresolved:e0ecc1a37fd71ad7aa59365fbfd6a10e24da61c7663b2cf0f6e5467a1c0da8e6",
+        "unresolved:e233771b86ba40ecb7cc6090bc84001f45d66dc0528b46de42f6af73472b6b63"
+      ],
+      "certainty": "UNRESOLVED",
+      "representativePathNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    },
+    {
+      "id": "reference:7a4e598c1bfc72b73786e69af8f31336a473fb55ae60a593f007511009ffde97",
+      "flagId": "flag:4cb4cdeb76cab5d4d91f7d34b8589fb2f86c3f409f48001d565bfc76e3224f26",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": false,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.wrapper.fixed",
+        "expression": "acceptance.wrapper.fixed",
+        "fingerprint": "a6c9adc2fc476b03efdf009d11d50f1e026cf2fa22e407eb024a5c9a2507b82e"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "true",
+        "expression": "true",
+        "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+      },
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      },
+      "containingSymbolId": "symbol:94864e088220e274b66929c74548534be239aeff10a2bd588e8accc055f1b65b",
+      "containingSymbol": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateFixedAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+        "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+        "node:2e0ce863d2f0d62d979041f1053a6261b0daf4b4bb7370058a814cda5942331d",
+        "node:3127cfb32baa7e92da19f5f80440b31721374096ce5b96309c3cab07b41698dd",
+        "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+        "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+        "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    },
+    {
+      "id": "reference:8c4860d18ff8ced1701c31dcf6b1e31e61446f97a277f2adf822febd9786ae85",
+      "flagId": "flag:5ea74e73fb11a840ed7af402c9d076417e48b54afe84a310d69dfaac98e1ea25",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": false,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.checkout.v2",
+        "expression": "acceptance.checkout.v2",
+        "fingerprint": "c33eafacc25f449fa6a1798c180b4474cedfbb285865ef5b43f430b23ebeb2ce"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "false",
+        "expression": "false",
+        "fingerprint": "8405dcce33af93cd13488094f86818c63a56fa33f371da782801e495edfef00f"
+      },
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      },
+      "containingSymbolId": "symbol:9817aec0219eafa9b8fc9ec3d3af71bd2291c7d9e2ff87c2fd162ecb846a21df",
+      "containingSymbol": "SnapshotScan.App.BaseEntryPoints.CheckoutAgainAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+        "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+        "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:6b5bfc01cc38db948b07dfb99aa8cba87ecc39ab5e658df9abc1b18775207383",
+        "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+        "node:a96c154bd0edb334db8e2bab6ec964db9db456f9e22493a6e86b5130406b220a",
+        "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+        "node:f3fc0d0ce221aff9468083ded3780ff2b9c12f135ce18d8bd3031a93dcd7390a",
+        "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:f3fc0d0ce221aff9468083ded3780ff2b9c12f135ce18d8bd3031a93dcd7390a",
+        "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    },
+    {
+      "id": "reference:9925cdd7fcb0080f845f2a0c05662d0d910b828701c94767a6b4173fcca7f006",
+      "flagId": "flag:0df1a55d88d12564e7038b2444fa59d13d042b0340a7f0a985228e2a2c3d4225",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": true,
+      "key": {
+        "resolution": "EXPRESSION",
+        "valueType": "string",
+        "constantValue": null,
+        "expression": "key",
+        "fingerprint": "6a19fb382907066cbda706c511c1bc8834053022e9f20ba121e2cb68f231ecbf"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "true",
+        "expression": "true",
+        "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+      },
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      },
+      "containingSymbolId": "symbol:2b27b303ad24b986d20f2b7f19fbaf88a55e0811cd2f6e13a3d6a9d99ccdcf70",
+      "containingSymbol": "SnapshotScan.Flags.DirectEvaluations.EvaluateDynamicAsync(string)",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:471a6f10df60a2372f75b4e9e10bf1a14ed6049627c17e7c06777873b69a6e22",
+        "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc",
+        "node:66de1317cc66a4ce11ddfe600ce6b6813f0a9d3b2c2897e19ac9c3639c802dab",
+        "node:b417d178d2799bb98560dacdc5a63d832b999b2b4615abc7c22607f85e5bd332",
+        "node:ff1e062f3f0b627aae7c69f2ad286f35dc042051175a535006970aff09dbe144"
+      ],
+      "unresolvedIds": [
+        "unresolved:80e65f0ce3a33cf6f028b0a309f96b275e8470c9ee896fa66be1055abf85b48b"
+      ],
+      "certainty": "UNRESOLVED",
+      "representativePathNodeIds": [
+        "node:b417d178d2799bb98560dacdc5a63d832b999b2b4615abc7c22607f85e5bd332",
+        "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc"
+      ]
+    },
+    {
+      "id": "reference:a01ec8f37f82aa269b771a3858192fb1fb2ee8e3c94114067b6b858edaf5345f",
+      "flagId": "flag:5ea74e73fb11a840ed7af402c9d076417e48b54afe84a310d69dfaac98e1ea25",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": false,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.checkout.v2",
+        "expression": "acceptance.checkout.v2",
+        "fingerprint": "c33eafacc25f449fa6a1798c180b4474cedfbb285865ef5b43f430b23ebeb2ce"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "false",
+        "expression": "false",
+        "fingerprint": "8405dcce33af93cd13488094f86818c63a56fa33f371da782801e495edfef00f"
+      },
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      },
+      "containingSymbolId": "symbol:0eaea585b4e855fa2c27fae996dadd91b548972b003a2133bb3ce2d0d60afaac",
+      "containingSymbol": "SnapshotScan.App.BaseEntryPoints.CheckoutAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+        "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+        "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+        "node:31ff29b11464c1da3729eb72032fd1a61df4d0adca33df62efba7c66e725987d",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+        "node:95a1e55e31d4c9932f330230a606cdb28184f19222f292fdfa356af005272fc0",
+        "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+        "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:ecd1c26828d36e98555f1f5905cb85d7b84b9fa80f398831d298605f29f378e1",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:95a1e55e31d4c9932f330230a606cdb28184f19222f292fdfa356af005272fc0",
+        "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    },
+    {
+      "id": "reference:a793f2ba26a0e08677d9d2922722f8713900e7935d83a1d2401d719626c4dba8",
+      "flagId": "flag:49c7f6b25e59db02abef33b46803eacbbda0e48b21789c6b0f9d67fc0e1382ea",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "evaluationType": "STRING",
+      "evaluationKind": "VALUE",
+      "direct": true,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.direct.string",
+        "expression": "\u0022acceptance.direct.string\u0022",
+        "fingerprint": "29a4d9241a118abdcba9f657db46146d4f9cc57e8f70f4b5eced4b381aedfd93"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "control",
+        "expression": "\u0022control\u0022",
+        "fingerprint": "57cb01aefd7a2e9ef04f1a6db9761a50b775cbbd37d9f4ab58f01c86738a0033"
+      },
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      },
+      "containingSymbolId": "symbol:fd1ba4c502d6b353787391dd745964d4f7ebc48e57544c2297a7f1e741cfd106",
+      "containingSymbol": "SnapshotScan.Flags.DirectEvaluations.EvaluateAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetStringValueAsync(System.String,System.String,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:1d4a82f31f3463b8abb94b1199543b0c908237292b1b5fbec9eef5645ce906f0",
+        "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+        "node:34ead47db5354b88420253eb5e5233216fae64ad1724fbc72fd891faac7779f3",
+        "node:f31c2baf48e2706f2bd12a6746284872cb94805622c7b0bde1f4a6cb8c6df0c9"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+        "node:f31c2baf48e2706f2bd12a6746284872cb94805622c7b0bde1f4a6cb8c6df0c9"
+      ]
+    },
+    {
+      "id": "reference:aa597070bc12823e1602fe9126cf350216c20b106eb8dc232c7d28efc85c74b8",
+      "flagId": "flag:8e4183432f097bffdf95c793325f33064571d40808206f49bfe32602487e7fe7",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": false,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.search.v3",
+        "expression": "acceptance.search.v3",
+        "fingerprint": "d9e0d4819c8c8a4f30ed9804f300240632f922b6e4b6b797f2e562a4397f73e2"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "true",
+        "expression": "true",
+        "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+      },
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      },
+      "containingSymbolId": "symbol:920b10305c94d6a19b4eb54feee5f47824263c123e4c28ee8c44ed68d83b4449",
+      "containingSymbol": "SnapshotScan.App.BaseEntryPoints.SearchAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:054e477675224c136ffe3aa4cbedaf5565dbd3088df64c49cf77b0f36d9b51dd",
+        "node:06003da7c9cc9391b95d0d3fd77dd6047fb1e4b1ee8121837d29bcbac0240d3e",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+        "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+        "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+        "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+        "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+        "node:cc1b003c23f81f097a6ac98ba1b2ad99a9b460893215a9bf34b78eaf45d8e712",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:06003da7c9cc9391b95d0d3fd77dd6047fb1e4b1ee8121837d29bcbac0240d3e",
+        "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    },
+    {
+      "id": "reference:d4c842fb5316d68d8d430ddb4bb866e5921cda0fcf772a2d6267fa5fa89f26c0",
+      "flagId": "flag:0b31cfbdea1471267a5944b6871073435a81d31e485eefa2dafa00bed445d0c9",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": false,
+      "key": {
+        "resolution": "EXPRESSION",
+        "valueType": "string",
+        "constantValue": null,
+        "expression": "Conversion:302d5def021b",
+        "fingerprint": "18f3931421acc6b8f04c3cd14ffe3b06f07875d56a2ff7c80b7e24e7bcb0587e"
+      },
+      "defaultValue": {
+        "resolution": "EXPRESSION",
+        "valueType": "bool",
+        "constantValue": null,
+        "expression": "parameter[2]",
+        "fingerprint": "afe53f310c392ff1c0030583dc529c21b970bf8f740f41f300b3894932baa898"
+      },
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "containingSymbolId": "symbol:5950c19e86bf39f4e9c20e6c38c49e76250b78550f2caf53675d40189eb4b57c",
+      "containingSymbol": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateVersionAsync(string, int, bool)",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:14f0748be87b7926ec61476fe8befd5e89b1830b04325e76c64cc6e175acfef5",
+        "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+        "node:430089cce3dd94b313dc5f15ec65c9ac8c9dbf7a7c26090b0f8c07c553d5b918",
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:598873f851b53ccb04007118aed67e0da08a25f9547567ee82ff2609507dc016",
+        "node:61ccf40b1238c1abc53a0b2540dc5ad42b1f814983508cb4c119793bc5953fc5",
+        "node:82766edd6fb6b4fdaa4b2505c75a6627661eca7c51b980e68a3fa6ef08d452f5",
+        "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:ee6c2edcb508fea21b996f9c2727871290b0d2445d375ddd4a5684cc22a156e0",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ],
+      "unresolvedIds": [
+        "unresolved:21966a5eb007f2dbd947c422048b6f9335f0ed3ef7757da3816528409dc17d80",
+        "unresolved:2bfd22f1bf309eb70c4d81cce16a4717509092ff0e6f3e1f5b36d8122ea5d67d",
+        "unresolved:8375211d317b5c6a82be0e2dbd2003f5b975c62956799150623e95cbcaf1a4c0",
+        "unresolved:8a1c5bad47b54c6ecf5eaa660be02e50418a5305ff1ad83d33bdab0b9b5650f0"
+      ],
+      "certainty": "UNRESOLVED",
+      "representativePathNodeIds": [
+        "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+        "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    },
+    {
+      "id": "reference:dd1dcb7e485289bc3d69a49a63761b5a7daad854c84dff6538835bddeae5dc93",
+      "flagId": "flag:4cb4cdeb76cab5d4d91f7d34b8589fb2f86c3f409f48001d565bfc76e3224f26",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "evaluationType": "BOOLEAN",
+      "evaluationKind": "VALUE",
+      "direct": false,
+      "key": {
+        "resolution": "CONSTANT",
+        "valueType": "string",
+        "constantValue": "acceptance.wrapper.fixed",
+        "expression": "acceptance.wrapper.fixed",
+        "fingerprint": "a6c9adc2fc476b03efdf009d11d50f1e026cf2fa22e407eb024a5c9a2507b82e"
+      },
+      "defaultValue": {
+        "resolution": "CONSTANT",
+        "valueType": "bool",
+        "constantValue": "true",
+        "expression": "true",
+        "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+      },
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      },
+      "containingSymbolId": "symbol:bc30f3d2ef41dffb9e158dd5466c5a28df00d27aa113a2ed210fb2bfd4835b66",
+      "containingSymbol": "SnapshotScan.App.BaseEntryPoints.FixedAsync()",
+      "evaluationSymbol": "M:OpenFeature.IFeatureClient.GetBooleanValueAsync(System.String,System.Boolean,OpenFeature.Model.EvaluationContext,OpenFeature.Model.FlagEvaluationOptions,System.Threading.CancellationToken)",
+      "evidenceNodeIds": [
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+        "node:1520b7a122db14cceb0d50ae8881a6a8ec7ba2a00d841d067ac1268bf6cf77a5",
+        "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+        "node:339cf2e02b9450672c399a85db6d73803acc3ada30beb758569abd18490b1ac7",
+        "node:42ce3a266954df1319f4ce0bac56f1b91f7280f1beb12815a7a90d9e20c3d9f3",
+        "node:a8f60a3fdc6868c173a2b3d9402891ff363607092ab21ce2900bca70db3625d0",
+        "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+        "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ],
+      "unresolvedIds": [],
+      "certainty": "DEFINITE",
+      "representativePathNodeIds": [
+        "node:a8f60a3fdc6868c173a2b3d9402891ff363607092ab21ce2900bca70db3625d0",
+        "node:42ce3a266954df1319f4ce0bac56f1b91f7280f1beb12815a7a90d9e20c3d9f3",
+        "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+        "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+        "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+        "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775"
+      ]
+    }
+  ],
+  "graphNodes": [
+    {
+      "id": "node:054e477675224c136ffe3aa4cbedaf5565dbd3088df64c49cf77b0f36d9b51dd",
+      "kind": "VALUE_SOURCE",
+      "label": "default: true",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      },
+      "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+    },
+    {
+      "id": "node:06003da7c9cc9391b95d0d3fd77dd6047fb1e4b1ee8121837d29bcbac0240d3e",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.App.BaseEntryPoints.SearchAsync()",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      },
+      "fingerprint": "c65bc1dd6306f974b1d872e645467bb4341eb21eb665b6a10c2d66578cfea4bf"
+    },
+    {
+      "id": "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.Flags.OpenFeatureBooleanGateway.EvaluateAsync(string, bool)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "13d97369ad943c5650dd75bd24c78766c40d0747e1275884cf0e636aad1307e9"
+    },
+    {
+      "id": "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+      "kind": "INVOCATION",
+      "label": "SnapshotScan.Flags.OpenFeatureBooleanGateway.EvaluateAsync(string, bool)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      },
+      "fingerprint": "23b7236c611c2a4bc529300263d1dcc2196063f7e039066d490f0265334d317b"
+    },
+    {
+      "id": "node:14f0748be87b7926ec61476fe8befd5e89b1830b04325e76c64cc6e175acfef5",
+      "kind": "UNRESOLVED",
+      "label": "KEY: UNRESOLVED_EXPRESSION",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "e0f07fb20e76775ef0706050be3a6ce739fd605eb8834c83b869b5f16c90005b"
+    },
+    {
+      "id": "node:1520b7a122db14cceb0d50ae8881a6a8ec7ba2a00d841d067ac1268bf6cf77a5",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.wrapper.fixed",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      },
+      "fingerprint": "a6c9adc2fc476b03efdf009d11d50f1e026cf2fa22e407eb024a5c9a2507b82e"
+    },
+    {
+      "id": "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+      "kind": "PARAMETER",
+      "label": "fallback: bool",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": null,
+      "location": null,
+      "fingerprint": "77d20b8a3baa8359d72fe063011fc7ebb773516aaf0787cb950994bc33794f77"
+    },
+    {
+      "id": "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+      "kind": "PARAMETER",
+      "label": "fallback: bool",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": null,
+      "location": null,
+      "fingerprint": "2bc54557a36835997b031f56ddb163f55c7b61d313f423d24e96e10a631681cc"
+    },
+    {
+      "id": "node:1d4a82f31f3463b8abb94b1199543b0c908237292b1b5fbec9eef5645ce906f0",
+      "kind": "VALUE_SOURCE",
+      "label": "default: control",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      },
+      "fingerprint": "57cb01aefd7a2e9ef04f1a6db9761a50b775cbbd37d9f4ab58f01c86738a0033"
+    },
+    {
+      "id": "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.Flags.DirectEvaluations.EvaluateAsync()",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      },
+      "fingerprint": "bc950002c513a35fab8365902f241e9d4ca43809ad890a63fd6184c09d3954e7"
+    },
+    {
+      "id": "node:2bf43ff3e68605abc209c5358c2c83f2951217c1b9e9590689c9558bbcebcbbb",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.direct.boolean",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      },
+      "fingerprint": "20331c3206cd22a2ecdade10cba3a51a5cd4c7beaf0a1791cc7bd5419fe06696"
+    },
+    {
+      "id": "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+      "kind": "PARAMETER",
+      "label": "area: string",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": null,
+      "location": null,
+      "fingerprint": "3e54a9fa9dc52e71289309294215930a2471daef4ba052f0cd6ad44309aa8e83"
+    },
+    {
+      "id": "node:2e0ce863d2f0d62d979041f1053a6261b0daf4b4bb7370058a814cda5942331d",
+      "kind": "VALUE_SOURCE",
+      "label": "default: true",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      },
+      "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+    },
+    {
+      "id": "node:3127cfb32baa7e92da19f5f80440b31721374096ce5b96309c3cab07b41698dd",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.wrapper.fixed",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      },
+      "fingerprint": "a6c9adc2fc476b03efdf009d11d50f1e026cf2fa22e407eb024a5c9a2507b82e"
+    },
+    {
+      "id": "node:31ff29b11464c1da3729eb72032fd1a61df4d0adca33df62efba7c66e725987d",
+      "kind": "VALUE_SOURCE",
+      "label": "default: false",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      },
+      "fingerprint": "8405dcce33af93cd13488094f86818c63a56fa33f371da782801e495edfef00f"
+    },
+    {
+      "id": "node:339cf2e02b9450672c399a85db6d73803acc3ada30beb758569abd18490b1ac7",
+      "kind": "VALUE_SOURCE",
+      "label": "default: true",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      },
+      "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+    },
+    {
+      "id": "node:34ead47db5354b88420253eb5e5233216fae64ad1724fbc72fd891faac7779f3",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.direct.string",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      },
+      "fingerprint": "29a4d9241a118abdcba9f657db46146d4f9cc57e8f70f4b5eced4b381aedfd93"
+    },
+    {
+      "id": "node:42ce3a266954df1319f4ce0bac56f1b91f7280f1beb12815a7a90d9e20c3d9f3",
+      "kind": "INVOCATION",
+      "label": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateFixedAsync()",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      },
+      "fingerprint": "613df0e0b13d8ce837e71a67f24c5bfcf0ee622c68bc62fd66b2bdec3aa90893"
+    },
+    {
+      "id": "node:430089cce3dd94b313dc5f15ec65c9ac8c9dbf7a7c26090b0f8c07c553d5b918",
+      "kind": "UNRESOLVED",
+      "label": "KEY: UNBOUND_PARAMETER",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "e0f07fb20e76775ef0706050be3a6ce739fd605eb8834c83b869b5f16c90005b"
+    },
+    {
+      "id": "node:471a6f10df60a2372f75b4e9e10bf1a14ed6049627c17e7c06777873b69a6e22",
+      "kind": "VALUE_SOURCE",
+      "label": "default: true",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      },
+      "fingerprint": "c04f5b4e5ce8814e1afe866ce14e1a7a25f64001aee8fca91e0be5f34aa7f18f"
+    },
+    {
+      "id": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateVersionAsync(string, int, bool)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "635bcb7224940b8efb02763530aa305127812570441a816f2cd6efef174ba149"
+    },
+    {
+      "id": "node:54bd4c94ec65d2763c77e37c11cf730a93e0bee009b5a75fa83bbc468b3b75ee",
+      "kind": "VALUE_SOURCE",
+      "label": "default: sinkFallback",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "dd91e01c192bf0a0bcf6a7e7613e48dc9c2e4fbded22234814314e1a5a8e9538"
+    },
+    {
+      "id": "node:58483a35dd9ded0f64c02735438d00af536b564e6d31e110af83ca17290f3546",
+      "kind": "VALUE_SOURCE",
+      "label": "default: false",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      },
+      "fingerprint": "8405dcce33af93cd13488094f86818c63a56fa33f371da782801e495edfef00f"
+    },
+    {
+      "id": "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc",
+      "kind": "FLAG_EVALUATION",
+      "label": "OpenFeature.IFeatureClient.GetBooleanValueAsync(string, bool, OpenFeature.Model.EvaluationContext?, OpenFeature.Model.FlagEvaluationOptions?, System.Threading.CancellationToken)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      },
+      "fingerprint": "8b2943e71b80732e822636ff6bc8e79a5da96fa1eac49240f0b10aedddbdc507"
+    },
+    {
+      "id": "node:598873f851b53ccb04007118aed67e0da08a25f9547567ee82ff2609507dc016",
+      "kind": "UNRESOLVED",
+      "label": "DEFAULT_VALUE: UNRESOLVED_EXPRESSION",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "2cbad7db2a4609529ba01c3ed4620d2a9dfba5ab21a2346487ab02223e0160f7"
+    },
+    {
+      "id": "node:61ccf40b1238c1abc53a0b2540dc5ad42b1f814983508cb4c119793bc5953fc5",
+      "kind": "UNRESOLVED",
+      "label": "DEFAULT_VALUE: UNBOUND_PARAMETER",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "2cbad7db2a4609529ba01c3ed4620d2a9dfba5ab21a2346487ab02223e0160f7"
+    },
+    {
+      "id": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "kind": "INVOCATION",
+      "label": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateVersionAsync(string, int, bool)",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      },
+      "fingerprint": "243c1ee4dd1d30ea32fa12555f0546795f15b5a9ce205c9e9663efd98811492b"
+    },
+    {
+      "id": "node:66de1317cc66a4ce11ddfe600ce6b6813f0a9d3b2c2897e19ac9c3639c802dab",
+      "kind": "UNRESOLVED",
+      "label": "KEY: UNRESOLVED_EXPRESSION",
+      "projectId": null,
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      },
+      "fingerprint": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683"
+    },
+    {
+      "id": "node:6b5bfc01cc38db948b07dfb99aa8cba87ecc39ab5e658df9abc1b18775207383",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.checkout.v2",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      },
+      "fingerprint": "c33eafacc25f449fa6a1798c180b4474cedfbb285865ef5b43f430b23ebeb2ce"
+    },
+    {
+      "id": "node:6d758f1bcdfb039872f4e3121cc88023fe7b3d4e80041cc699a01b449c1b3f84",
+      "kind": "UNRESOLVED",
+      "label": "KEY: UNBOUND_PARAMETER",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "4c236dc9aa61b06342ef414b699dcd2c48faceee9a73c999d368bc46fa387250"
+    },
+    {
+      "id": "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+      "kind": "PARAMETER",
+      "label": "version: int",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": null,
+      "location": null,
+      "fingerprint": "06c21a5fcbf11a2549a2ce9c1a152bd90a7a7ac04da9e7c2cc072597ee779449"
+    },
+    {
+      "id": "node:82766edd6fb6b4fdaa4b2505c75a6627661eca7c51b980e68a3fa6ef08d452f5",
+      "kind": "VALUE_SOURCE",
+      "label": "key: Conversion:302d5def021b",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "18f3931421acc6b8f04c3cd14ffe3b06f07875d56a2ff7c80b7e24e7bcb0587e"
+    },
+    {
+      "id": "node:95a1e55e31d4c9932f330230a606cdb28184f19222f292fdfa356af005272fc0",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.App.BaseEntryPoints.CheckoutAsync()",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      },
+      "fingerprint": "5596b869190295370b7ef76acd5e610db7ea42fa2d58eeffb1ab499a489b9da1"
+    },
+    {
+      "id": "node:a8f60a3fdc6868c173a2b3d9402891ff363607092ab21ce2900bca70db3625d0",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.App.BaseEntryPoints.FixedAsync()",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      },
+      "fingerprint": "d28c2d919434df0daf9a08a37c91c691730fd7372da400d206d8be40f2b4478d"
+    },
+    {
+      "id": "node:a96c154bd0edb334db8e2bab6ec964db9db456f9e22493a6e86b5130406b220a",
+      "kind": "VALUE_SOURCE",
+      "label": "default: false",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      },
+      "fingerprint": "8405dcce33af93cd13488094f86818c63a56fa33f371da782801e495edfef00f"
+    },
+    {
+      "id": "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+      "kind": "PARAMETER",
+      "label": "key: string",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": null,
+      "location": null,
+      "fingerprint": "fe5433b1c1fc300978b911a4ba1d7147957e78ebc7e4ad0e92478456058c5776"
+    },
+    {
+      "id": "node:b03e604e8b547a71185330e96431ac4b8c69919be279becaa70d79a70baf7bea",
+      "kind": "FLAG_EVALUATION",
+      "label": "OpenFeature.IFeatureClient.GetBooleanValueAsync(string, bool, OpenFeature.Model.EvaluationContext?, OpenFeature.Model.FlagEvaluationOptions?, System.Threading.CancellationToken)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      },
+      "fingerprint": "4cbe1aa3527b4d4dadf0e21ce5a4740a1dd35e02d2a97d154c71297e69874a57"
+    },
+    {
+      "id": "node:b417d178d2799bb98560dacdc5a63d832b999b2b4615abc7c22607f85e5bd332",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.Flags.DirectEvaluations.EvaluateDynamicAsync(string)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      },
+      "fingerprint": "17da290c3bc5b6977e0358cfedec9b2c8c6121274ab0e7ba007ae034aa914e37"
+    },
+    {
+      "id": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "kind": "INVOCATION",
+      "label": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateVersionAsync(string, int, bool)",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      },
+      "fingerprint": "40ddd20aaa38e2b974c1702c5d11bc3419fd5a7e99a6657ba8001a0998d57f43"
+    },
+    {
+      "id": "node:cc1b003c23f81f097a6ac98ba1b2ad99a9b460893215a9bf34b78eaf45d8e712",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.search.v3",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      },
+      "fingerprint": "d9e0d4819c8c8a4f30ed9804f300240632f922b6e4b6b797f2e562a4397f73e2"
+    },
+    {
+      "id": "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateFixedAsync()",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      },
+      "fingerprint": "58ab90a38f7345cad41453f72c50ebb58cefb7fe74352086f6b415895a952f8a"
+    },
+    {
+      "id": "node:dcc925b04ae381ac67ca68315e1b614372b4b979ada3ae26559e49dfd561c89b",
+      "kind": "VALUE_SOURCE",
+      "label": "key: sinkKey",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "d7b1a2eaf0f4a67cf9380a14cabd91db875f4ba5493fdd967e74ee74607f525d"
+    },
+    {
+      "id": "node:e5500d0c41efc18f1348a88cd69471a1d2bead7cd478a7ebcd64f619e8746a19",
+      "kind": "UNRESOLVED",
+      "label": "KEY: UNRESOLVED_EXPRESSION",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "4c236dc9aa61b06342ef414b699dcd2c48faceee9a73c999d368bc46fa387250"
+    },
+    {
+      "id": "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+      "kind": "INVOCATION",
+      "label": "SnapshotScan.Flags.OpenFeatureBooleanGateway.EvaluateAsync(string, bool)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "e9c2a911c3565e7d09f34fd562066b483cfbfbc85584bd831988215c6d433fc6"
+    },
+    {
+      "id": "node:ecd1c26828d36e98555f1f5905cb85d7b84b9fa80f398831d298605f29f378e1",
+      "kind": "VALUE_SOURCE",
+      "label": "key: acceptance.checkout.v2",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      },
+      "fingerprint": "c33eafacc25f449fa6a1798c180b4474cedfbb285865ef5b43f430b23ebeb2ce"
+    },
+    {
+      "id": "node:ee6c2edcb508fea21b996f9c2727871290b0d2445d375ddd4a5684cc22a156e0",
+      "kind": "VALUE_SOURCE",
+      "label": "default: parameter[2]",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      },
+      "fingerprint": "afe53f310c392ff1c0030583dc529c21b970bf8f740f41f300b3894932baa898"
+    },
+    {
+      "id": "node:ee7da88c196fac64aa50c899b4ab636d0f01fa75c55c79915c7ef0272d264e2b",
+      "kind": "UNRESOLVED",
+      "label": "DEFAULT_VALUE: UNRESOLVED_EXPRESSION",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "55c4216140990eaf5346b14d6d61f2aac35c783851c08668d4b77829be1cc092"
+    },
+    {
+      "id": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "kind": "FLAG_EVALUATION",
+      "label": "OpenFeature.IFeatureClient.GetBooleanValueAsync(string, bool, OpenFeature.Model.EvaluationContext?, OpenFeature.Model.FlagEvaluationOptions?, System.Threading.CancellationToken)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "2e3e7ef46b2d182fa89f8e9cf7efa09ddb42f04ba80e4cc65e19ec864e68efb4"
+    },
+    {
+      "id": "node:f31c2baf48e2706f2bd12a6746284872cb94805622c7b0bde1f4a6cb8c6df0c9",
+      "kind": "FLAG_EVALUATION",
+      "label": "OpenFeature.IFeatureClient.GetStringValueAsync(string, string, OpenFeature.Model.EvaluationContext?, OpenFeature.Model.FlagEvaluationOptions?, System.Threading.CancellationToken)",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      },
+      "fingerprint": "6716d130075f304c50e9a5f021384a1fdda228baa6cac06b0a7aff956ba40522"
+    },
+    {
+      "id": "node:f3fc0d0ce221aff9468083ded3780ff2b9c12f135ce18d8bd3031a93dcd7390a",
+      "kind": "MEMBER",
+      "label": "SnapshotScan.App.BaseEntryPoints.CheckoutAgainAsync()",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      },
+      "fingerprint": "e1bbdb8b90e8b29ca2f40e6b3e79c3e3b011fa93c21fd7ba6592cc390f81c074"
+    },
+    {
+      "id": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "kind": "INVOCATION",
+      "label": "SnapshotScan.Flags.ParameterizedFlagWrapper.EvaluateVersionAsync(string, int, bool)",
+      "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+      "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      },
+      "fingerprint": "40ddd20aaa38e2b974c1702c5d11bc3419fd5a7e99a6657ba8001a0998d57f43"
+    },
+    {
+      "id": "node:f97ab4f0dea91888ed83dfcb85a5e277f04a44eb071b0e49d0efd8c95eaf0058",
+      "kind": "UNRESOLVED",
+      "label": "DEFAULT_VALUE: UNBOUND_PARAMETER",
+      "projectId": null,
+      "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      },
+      "fingerprint": "55c4216140990eaf5346b14d6d61f2aac35c783851c08668d4b77829be1cc092"
+    },
+    {
+      "id": "node:ff1e062f3f0b627aae7c69f2ad286f35dc042051175a535006970aff09dbe144",
+      "kind": "VALUE_SOURCE",
+      "label": "key: key",
+      "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+      "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      },
+      "fingerprint": "6a19fb382907066cbda706c511c1bc8834053022e9f20ba121e2cb68f231ecbf"
+    }
+  ],
+  "graphEdges": [
+    {
+      "id": "edge:01ec3d65c958c5593560e613f6702d8ddb54672df5194cd68a094108f3d1bffb",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:dcc925b04ae381ac67ca68315e1b614372b4b979ada3ae26559e49dfd561c89b",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:0a56710547d7364f51543184fba7a2dac5dbfc360703bce6dee5a6e4d9ddf76f",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+      "toId": "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:0cdb8fd35845deac5914c286269b7db62b0b3d5e1ce9cf568c6a3cc0924fc5e2",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+      "toId": "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:1b2a61a709f82920c3d92165d121f069241e35f201d90288302c0445525128c7",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "toId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:213916635dd63fb63bf0f5c5b675e20963a10264cc3b75f867040d8750a2909b",
+      "kind": "RETURNS",
+      "certainty": "DEFINITE",
+      "fromId": "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+      "toId": "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:24db16a3aeb138a0b9754e7b5612aae4c1822010994004f4a74983d55b91dae7",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "toId": "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:2a1bf0885c0f6485b9db6724c8c2459710b72c16abb488221b5340d43a1fbc4a",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "toId": "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:30291bbe44ed3ed37af57b705e7db17ef3d68834c6ff27af6b2b17c15dc0ec10",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "toId": "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:335431e77751b8055196f9d5e042e993d935f851143c0ac21329450e3f0824d8",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+      "toId": "node:1999b6b9c03f5431f18826b6bfb6db86c388743e065228641d25b9311389ca9b",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:446660a5ada06b8e33adda0fe32c77d6ef87f93a2b6e8c6dfb816c8357fe104f",
+      "kind": "RETURNS",
+      "certainty": "DEFINITE",
+      "fromId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "toId": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:45c742a22ef243ae797bbf833289c7b269deeb5b2944034f5e96b59084682ec3",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:f97ab4f0dea91888ed83dfcb85a5e277f04a44eb071b0e49d0efd8c95eaf0058",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:45deb299d75aaf5f4ccc855b6b8d2a670864966c2f66052190d3a9a09de55f95",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:6d758f1bcdfb039872f4e3121cc88023fe7b3d4e80041cc699a01b449c1b3f84",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:4dee86b5f39ef48e06daa7a6b6c6a58daf7934f1cc30fe580b42eb65f36dfd3c",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:2bf43ff3e68605abc209c5358c2c83f2951217c1b9e9590689c9558bbcebcbbb",
+      "toId": "node:b03e604e8b547a71185330e96431ac4b8c69919be279becaa70d79a70baf7bea",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      }
+    },
+    {
+      "id": "edge:5192525440f023a743c97dcdf793e9724331cf508d47e88dd483bcdc592215ef",
+      "kind": "RETURNS",
+      "certainty": "DEFINITE",
+      "fromId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "toId": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:538d037134333255289be2b97b63e204d48c645f51f8c20653feae9ed8019a8b",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+      "toId": "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:58be83ba1d091c64944dc649c4298a4ba05387a21781056a032990abf75b6205",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:54bd4c94ec65d2763c77e37c11cf730a93e0bee009b5a75fa83bbc468b3b75ee",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:5dfb8f9b445f6edbf20e99096dc2ce32262f98cb7b31c906b8f2d0238c156fdb",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "toId": "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:627adfffd1abe9137186aa26766fbf90abf2a7edb909f52d6a7c0f8063d14f0c",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:14f0748be87b7926ec61476fe8befd5e89b1830b04325e76c64cc6e175acfef5",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:6376f2729d186e79041e526bad4a9fb966d249447a8e1a524514019c7f3e36f9",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:34ead47db5354b88420253eb5e5233216fae64ad1724fbc72fd891faac7779f3",
+      "toId": "node:f31c2baf48e2706f2bd12a6746284872cb94805622c7b0bde1f4a6cb8c6df0c9",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      }
+    },
+    {
+      "id": "edge:698f30c4834582a9646e27d76bd8a2002ac5478ba52b25fe255feb8bcf7efe00",
+      "kind": "EVALUATES_FLAG",
+      "certainty": "DEFINITE",
+      "fromId": "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:6c800601b78942dc616ae16af732cf44a10eba88e0b3b17cf57069e799919975",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "toId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:6fcd2182112bc2d8ba50e2e90bd2f47634789002bc4f7a8380ed3493fd55e1a1",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:66de1317cc66a4ce11ddfe600ce6b6813f0a9d3b2c2897e19ac9c3639c802dab",
+      "toId": "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      }
+    },
+    {
+      "id": "edge:6fe6747b401bf26c1894b53b5c7f802e4da30e858cad29813e52d5653995df60",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:58483a35dd9ded0f64c02735438d00af536b564e6d31e110af83ca17290f3546",
+      "toId": "node:b03e604e8b547a71185330e96431ac4b8c69919be279becaa70d79a70baf7bea",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      }
+    },
+    {
+      "id": "edge:7536af896eea3580e31987daa23010dd56732998d759a8b8afb54ca42271fd99",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+      "toId": "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:7985a2e28c29c7883c3a5fb1b2be34e3390cbde089de49758ade7eebcab4a444",
+      "kind": "EVALUATES_FLAG",
+      "certainty": "DEFINITE",
+      "fromId": "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+      "toId": "node:f31c2baf48e2706f2bd12a6746284872cb94805622c7b0bde1f4a6cb8c6df0c9",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      }
+    },
+    {
+      "id": "edge:7c7bbacf224099b8ae576154f5781e15cd3ba64a88fdb448df9e93da3be33290",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:06003da7c9cc9391b95d0d3fd77dd6047fb1e4b1ee8121837d29bcbac0240d3e",
+      "toId": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:7cd3f949a5e22e09ad57d4ac01b9a3caaeae22842ffb43ee46af2c634cfea29e",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:1d4a82f31f3463b8abb94b1199543b0c908237292b1b5fbec9eef5645ce906f0",
+      "toId": "node:f31c2baf48e2706f2bd12a6746284872cb94805622c7b0bde1f4a6cb8c6df0c9",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 15,
+        "startColumn": 29,
+        "endLine": 15,
+        "endColumn": 94
+      }
+    },
+    {
+      "id": "edge:864dc2153d634185d50cbd788fd7b00e30016164b40b48a2586d8acbc1b33a13",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "toId": "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:8d30a522c4a5bfcdd5353ec0419a7cae723564094c75de94862926304d87b2c2",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "toId": "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:8ff3f1c58b0a161ec00f57039903b74eb9cc2b018d0832308a517c833aa28439",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:598873f851b53ccb04007118aed67e0da08a25f9547567ee82ff2609507dc016",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:9226eaafb52a4691246116a840c312479f3b600f3c29e820c475340da7fd2f2d",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "toId": "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:a1e02ada59e257c6b35e579b1a8d901eb3e17d46645ac52926757abf01df24a3",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:f3fc0d0ce221aff9468083ded3780ff2b9c12f135ce18d8bd3031a93dcd7390a",
+      "toId": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:a4581d118bdd16201c744dc5dfa7f85f8316fa9678c00fc7c554c5872f838b35",
+      "kind": "EVALUATES_FLAG",
+      "certainty": "DEFINITE",
+      "fromId": "node:29c2b65e38bcc3a543e9d8a3ac9d70bf085970b51e7013ef2073e5c4d0a478df",
+      "toId": "node:b03e604e8b547a71185330e96431ac4b8c69919be279becaa70d79a70baf7bea",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 14,
+        "startColumn": 29,
+        "endLine": 14,
+        "endColumn": 75
+      }
+    },
+    {
+      "id": "edge:a80fd6b53112431cf909beb5405118f0d0ac144542f92ee95ed3db2a6bde4d80",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:339cf2e02b9450672c399a85db6d73803acc3ada30beb758569abd18490b1ac7",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      }
+    },
+    {
+      "id": "edge:aab8f755bd64acdb35f07e5ac82de429938648db4a8293924647b7d28834e82a",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:82766edd6fb6b4fdaa4b2505c75a6627661eca7c51b980e68a3fa6ef08d452f5",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:ac6b46ada8978a4597cc23f2983c61ab192282fecdbb5e189df7abdde6ef6bc2",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:3127cfb32baa7e92da19f5f80440b31721374096ce5b96309c3cab07b41698dd",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:b0c75e6bfad48ae7a9bd21a6fd09b4d6ccffac18df2ab328ca3523e2545b7f6f",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:e5500d0c41efc18f1348a88cd69471a1d2bead7cd478a7ebcd64f619e8746a19",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:b60679dbd79318d9bc1a49ff92fdc4a6f55aa2535b800e0f7fa2805e8b5a9244",
+      "kind": "RETURNS",
+      "certainty": "DEFINITE",
+      "fromId": "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+      "toId": "node:140f9e9e503e67e2d5a2eb42bf018d3c8d148d84b40e8be710c068de197bbb8a",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:b78471fb2f9477819b3ddb1aa9e2cba47289db7dd301f763238e11aba06ac848",
+      "kind": "RETURNS",
+      "certainty": "DEFINITE",
+      "fromId": "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+      "toId": "node:42ce3a266954df1319f4ce0bac56f1b91f7280f1beb12815a7a90d9e20c3d9f3",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      }
+    },
+    {
+      "id": "edge:b89827d5af4ae02c9041132eac4d8339ec0a50a332004c09b2782774df263722",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:430089cce3dd94b313dc5f15ec65c9ac8c9dbf7a7c26090b0f8c07c553d5b918",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:babc3881913945615ae20134972dec8396e16cbf963d61a1b256152292b06d57",
+      "kind": "EVALUATES_FLAG",
+      "certainty": "DEFINITE",
+      "fromId": "node:b417d178d2799bb98560dacdc5a63d832b999b2b4615abc7c22607f85e5bd332",
+      "toId": "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      }
+    },
+    {
+      "id": "edge:bb9c3497e176351ac2536500ef6c0d51a574024d1eb303a2829cf6ab1210884d",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:42ce3a266954df1319f4ce0bac56f1b91f7280f1beb12815a7a90d9e20c3d9f3",
+      "toId": "node:cfea039e91ed7816c763a5392908bfff022ce7c4f018c2c81faa9fd0737fac10",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      }
+    },
+    {
+      "id": "edge:c307665bf33da4a741aa255cece95156ba563f7de24cd8d902bcda69fd8a026d",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "toId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:c42a97539a30c5777aa09e93ac4d9a3f45c2fb9b3a1a6ca057b309a21f7d3ef3",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+      "toId": "node:11fa699e4e78ea8b9788f10bd36d9b8030a8749d33658c2a051536d9274bea82",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:c69e76d2c9d2aae6258cc7abcd86e6a7f656e2bfe0c4afafe9ff74ef6144d44a",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "toId": "node:1839b51bbe1f3b1ce8fe0c3b44bc3fd055acd4b876a51ea2e4812fcc1ca5fb5b",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:c7c5bcb8d02683140e4ec8fd0a728143a5f7cedb4aa8e1b95f465b3e2d80be5c",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:054e477675224c136ffe3aa4cbedaf5565dbd3088df64c49cf77b0f36d9b51dd",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:c95caf89c9e737dfa610578b6f6d058ea35f4bf5f089a7294211f4216a458b95",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:61ccf40b1238c1abc53a0b2540dc5ad42b1f814983508cb4c119793bc5953fc5",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:c9b3e10fcaaa831327f17162fe561034a67a970b38b7fec584d8abf5c1696a9f",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:a8f60a3fdc6868c173a2b3d9402891ff363607092ab21ce2900bca70db3625d0",
+      "toId": "node:42ce3a266954df1319f4ce0bac56f1b91f7280f1beb12815a7a90d9e20c3d9f3",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      }
+    },
+    {
+      "id": "edge:c9c2fb7b43002c5d18259feb236e82d587914c352605f08d4b1e6bdf641fd227",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:31ff29b11464c1da3729eb72032fd1a61df4d0adca33df62efba7c66e725987d",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:ca02d5905e901c7b4efd8a61e21054fdc9c34126b6bfa4fd6ca14cad5ef08a90",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:cc1b003c23f81f097a6ac98ba1b2ad99a9b460893215a9bf34b78eaf45d8e712",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:ca9684d5192d651d316657d2fccea950fe5ccf80c83336bcd1bb37cf996bda6b",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:ecd1c26828d36e98555f1f5905cb85d7b84b9fa80f398831d298605f29f378e1",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:cb37e8923c7bf9746a2e65d76000669e5c164531c12ce5daf566157b88770056",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:471a6f10df60a2372f75b4e9e10bf1a14ed6049627c17e7c06777873b69a6e22",
+      "toId": "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      }
+    },
+    {
+      "id": "edge:dc7c6fd68f50ff7c95d7f6d88452cc689cdb1250cb9f99ce88afcec1c10ff4ab",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:ff1e062f3f0b627aae7c69f2ad286f35dc042051175a535006970aff09dbe144",
+      "toId": "node:587bfdfdfab22ce016fe616f7e7c5a6386bcd8a432c1def6f740d661c8b25ddc",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      }
+    },
+    {
+      "id": "edge:e0e460077a25db707e62459eabdbde879867768c45a3279c36d87c9a6322c1be",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:eaf7f53206fd112de6d190300bf67cae0626488ef3de4ff6434f1a54752ba3fb",
+      "toId": "node:a9eb69feab7a9060567bab3d5320026223bc921668dd826aa885b1695a416c12",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:e2fb3ca11c08a859beff20fa92dface87be5af47a5ba35e21d3482eb635cfeaa",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:ee7da88c196fac64aa50c899b4ab636d0f01fa75c55c79915c7ef0272d264e2b",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "edge:e5cd49957264f9c4d399dbf65d286e7e5d2f0fcb003de19333013b6f57069c50",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:2e0ce863d2f0d62d979041f1053a6261b0daf4b4bb7370058a814cda5942331d",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 30,
+        "startColumn": 9,
+        "endLine": 30,
+        "endColumn": 64
+      }
+    },
+    {
+      "id": "edge:e70194d55cedea3dc0717e3e417af25ec191c83196dfa8fd3ea8c1198f249181",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:a96c154bd0edb334db8e2bab6ec964db9db456f9e22493a6e86b5130406b220a",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:e742c6cf387e3949eedc85ef906713ad4de715d2f4894b6d49844a870e1246b3",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "toId": "node:749f5b57cc7df139080db734a473b13b8ca64a1536a3d323bf6a6f9aaf0beba2",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    },
+    {
+      "id": "edge:eec08d71f64cd9d721f5008f6344bd1fd92fbb0951d2a2ebc186718b6dfb6ef0",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:1520b7a122db14cceb0d50ae8881a6a8ec7ba2a00d841d067ac1268bf6cf77a5",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 20,
+        "startColumn": 9,
+        "endLine": 20,
+        "endColumn": 37
+      }
+    },
+    {
+      "id": "edge:f1450bac0ace1ff0b4cc06e9eff0afc0090d59be99ccae0fb9d498f1b07bc4ce",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "UNRESOLVED",
+      "fromId": "node:ee6c2edcb508fea21b996f9c2727871290b0d2445d375ddd4a5684cc22a156e0",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "edge:f1ccaa13d001e0ec59600ae09b98e6d03c819b7c133ac3ba0c509c3c78d09802",
+      "kind": "RETURNS",
+      "certainty": "DEFINITE",
+      "fromId": "node:511144d835fe7283c4ebb7e1563590e715e7dc30d927455d7c7cceb561927292",
+      "toId": "node:f7068f7d81e9045c518627acfdd6c7b3ff76136d9e8cdd76ba9997f5a200760c",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:f5fba64bc9ee79cf99285d32630189984205de9edd9a8380824ce3e9536df496",
+      "kind": "CALLS",
+      "certainty": "DEFINITE",
+      "fromId": "node:95a1e55e31d4c9932f330230a606cdb28184f19222f292fdfa356af005272fc0",
+      "toId": "node:c0c4b81a4275912922d636fefe0e8a178c6baf718ab0bd37216aba910d191a3f",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 11,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:fb9bcce439e84cadc822f57936cff70adff86cce39c2c125be3b6c6d268a235c",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:6b5bfc01cc38db948b07dfb99aa8cba87ecc39ab5e658df9abc1b18775207383",
+      "toId": "node:f16b080c2ff712aa3285726009ced4516d6c041143c3e3ed6c7eb5d9b7987775",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 14,
+        "startColumn": 9,
+        "endLine": 14,
+        "endColumn": 70
+      }
+    },
+    {
+      "id": "edge:fe2037648a181f59c7f892b97c58dc6f5f0f72d2fc5b003df85852479f2382ff",
+      "kind": "PASSES_ARGUMENT",
+      "certainty": "DEFINITE",
+      "fromId": "node:62b579872e998cd0ca103fe3f9f104090446c598bd0141901aa68d8f1adad800",
+      "toId": "node:2d69e172fe8245cba2a5a1ac9656597c33e571e889beb8dfa36110f0a70f5545",
+      "location": {
+        "fileId": "file:6b0f1762255ab0d4a59dfbe7f644fd45bdd5cbbe2fc585a6aa6edd1f0d467350",
+        "path": "src/SnapshotScan.App/BaseEntryPoints.cs",
+        "startLine": 17,
+        "startColumn": 9,
+        "endLine": 17,
+        "endColumn": 67
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "unresolved:21966a5eb007f2dbd947c422048b6f9335f0ed3ef7757da3816528409dc17d80",
+      "reasonCode": "UNBOUND_PARAMETER",
+      "subject": "DEFAULT_VALUE",
+      "message": "The default_value still depends on an unbound method parameter.",
+      "expression": "parameter[2]",
+      "referenceId": "reference:d4c842fb5316d68d8d430ddb4bb866e5921cda0fcf772a2d6267fa5fa89f26c0",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "unresolved:2bfd22f1bf309eb70c4d81cce16a4717509092ff0e6f3e1f5b36d8122ea5d67d",
+      "reasonCode": "UNRESOLVED_EXPRESSION",
+      "subject": "KEY",
+      "message": "The key could not be resolved: UNRESOLVED_EXPRESSION.",
+      "expression": "Conversion:302d5def021b",
+      "referenceId": "reference:d4c842fb5316d68d8d430ddb4bb866e5921cda0fcf772a2d6267fa5fa89f26c0",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "unresolved:2e85ed506020cb1043d0777c4dedd3152d9fe93a0cb168513979d7f55185b9fe",
+      "reasonCode": "UNRESOLVED_EXPRESSION",
+      "subject": "DEFAULT_VALUE",
+      "message": "The default_value could not be resolved: UNRESOLVED_EXPRESSION.",
+      "expression": "sinkFallback",
+      "referenceId": "reference:3c80bc965b5f7aed1b16a0f5153e8de3ee4d5cfa4ac1efe3d92e43cc54973428",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "unresolved:6f1e30491377d273b788ff3cfcf3b7956cc5f6e034ef7c251798761b7bbd4d0e",
+      "reasonCode": "UNBOUND_PARAMETER",
+      "subject": "DEFAULT_VALUE",
+      "message": "The default_value still depends on an unbound method parameter.",
+      "expression": "sinkFallback",
+      "referenceId": "reference:3c80bc965b5f7aed1b16a0f5153e8de3ee4d5cfa4ac1efe3d92e43cc54973428",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "unresolved:80e65f0ce3a33cf6f028b0a309f96b275e8470c9ee896fa66be1055abf85b48b",
+      "reasonCode": "UNRESOLVED_EXPRESSION",
+      "subject": "KEY",
+      "message": "The key could not be resolved: UNRESOLVED_EXPRESSION.",
+      "expression": "key",
+      "referenceId": "reference:9925cdd7fcb0080f845f2a0c05662d0d910b828701c94767a6b4173fcca7f006",
+      "location": {
+        "fileId": "file:df564ce1be18b20bfa92de2f7b3fcee70160e6f6438c7aa68c5b3ac04a9074cd",
+        "path": "src/SnapshotScan.Flags/DirectEvaluations.cs",
+        "startLine": 22,
+        "startColumn": 16,
+        "endLine": 22,
+        "endColumn": 54
+      }
+    },
+    {
+      "id": "unresolved:8375211d317b5c6a82be0e2dbd2003f5b975c62956799150623e95cbcaf1a4c0",
+      "reasonCode": "UNRESOLVED_EXPRESSION",
+      "subject": "DEFAULT_VALUE",
+      "message": "The default_value could not be resolved: UNRESOLVED_EXPRESSION.",
+      "expression": "parameter[2]",
+      "referenceId": "reference:d4c842fb5316d68d8d430ddb4bb866e5921cda0fcf772a2d6267fa5fa89f26c0",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "unresolved:8a1c5bad47b54c6ecf5eaa660be02e50418a5305ff1ad83d33bdab0b9b5650f0",
+      "reasonCode": "UNBOUND_PARAMETER",
+      "subject": "KEY",
+      "message": "The key still depends on an unbound method parameter.",
+      "expression": "Conversion:302d5def021b",
+      "referenceId": "reference:d4c842fb5316d68d8d430ddb4bb866e5921cda0fcf772a2d6267fa5fa89f26c0",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 26,
+        "startColumn": 16,
+        "endLine": 26,
+        "endColumn": 52
+      }
+    },
+    {
+      "id": "unresolved:e0ecc1a37fd71ad7aa59365fbfd6a10e24da61c7663b2cf0f6e5467a1c0da8e6",
+      "reasonCode": "UNRESOLVED_EXPRESSION",
+      "subject": "KEY",
+      "message": "The key could not be resolved: UNRESOLVED_EXPRESSION.",
+      "expression": "sinkKey",
+      "referenceId": "reference:3c80bc965b5f7aed1b16a0f5153e8de3ee4d5cfa4ac1efe3d92e43cc54973428",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    },
+    {
+      "id": "unresolved:e233771b86ba40ecb7cc6090bc84001f45d66dc0528b46de42f6af73472b6b63",
+      "reasonCode": "UNBOUND_PARAMETER",
+      "subject": "KEY",
+      "message": "The key still depends on an unbound method parameter.",
+      "expression": "sinkKey",
+      "referenceId": "reference:3c80bc965b5f7aed1b16a0f5153e8de3ee4d5cfa4ac1efe3d92e43cc54973428",
+      "location": {
+        "fileId": "file:bc187e0631ebaff44025fd37de183a54ac7aa7d1b4d71a3f9b87bcd345d813ed",
+        "path": "src/SnapshotScan.Flags/ParameterizedFlagWrappers.cs",
+        "startLine": 14,
+        "startColumn": 16,
+        "endLine": 14,
+        "endColumn": 66
+      }
+    }
+  ],
+  "coverage": {
+    "discoveredProjects": 2,
+    "loadedProjects": 2,
+    "failedProjects": 0,
+    "discoveredFiles": 9,
+    "analyzedFiles": 9,
+    "projects": [
+      {
+        "projectId": "project:289eeba407c2df723f8f76088ddfedc17a724cedb1c5a041e56f33dd408b1ccf",
+        "path": "src/SnapshotScan.Flags/SnapshotScan.Flags.csproj",
+        "status": "LOADED",
+        "syntaxTreeCount": 5,
+        "analyzedInvocationCount": 6,
+        "openFeatureContractFound": true
+      },
+      {
+        "projectId": "project:9105341178a0acce1c1b7fd95b4564b17560f8577a5193389b7f5ce8e1a6d76c",
+        "path": "src/SnapshotScan.App/SnapshotScan.App.csproj",
+        "status": "LOADED",
+        "syntaxTreeCount": 5,
+        "analyzedInvocationCount": 6,
+        "openFeatureContractFound": true
+      }
+    ]
+  },
+  "diagnostics": []
+}

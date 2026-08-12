@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../SnapshotScan.App/SnapshotScan.App.csproj" />
+  </ItemGroup>
+</Project>
+
