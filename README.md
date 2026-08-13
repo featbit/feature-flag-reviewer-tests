@@ -643,4 +643,57 @@ ControlCondition --GUARDS--> 所在业务成员
 
 脚本会 Restore/Build 两边的 Solution，然后调用 `featbit-demo/feature-flag-reviewer` 编译出的真实 CLI 执行 `scan` 和 `render`。它会打印 JSON 与 Markdown 的 SHA-256，但不会比较 Golden，也不会产生精度断言。
 
-Git Base/Head 物化和 Report Differ 编排不属于当前人工精度验收范围。
+Base v1–v4 本身不负责 Git Base/Head 物化。下面的 PR Delta 场景在这个边界上增加一层显式编排：复用 `main` 已提交的 Base v4 Snapshot，扫描当前 PR 工作树，再调用真实 Report Differ。
+
+## Main → PR Delta 闭环
+
+这个分支是一个有意设计的 Pull Request Head。它让审阅者可以完成：
+
+```text
+main 的 reports/snapshot-base-v4.json
+  -> 扫描当前 PR 的 SnapshotBaseV4.slnx
+  -> reports/snapshot-pr-head.json
+  -> feature-flag-reviewer diff
+  -> reports/snapshot-main-to-pr.diff.json
+```
+
+PR 源码包含四类可人工预测的业务变化：
+
+| 变化 | Base | PR Head | 预期 Differ 结论 |
+|---|---|---|---|
+| 新增直接 Evaluation | 不存在 | `acceptance.pr.checkout-banner=false` | Added Key + Added Reference |
+| 移除 Evaluation | `acceptance.config.indexer=false` | 原入口保留，但只返回 `false` | Removed Key + Removed Reference |
+| 配置 Key 重命名 | `acceptance.config.get-value=true` | `acceptance.pr.get-value-v2=false` | Added/Removed Key + Modified Reference |
+| 同 Key 默认值变化 | `acceptance.di.constructor=false` | `acceptance.di.constructor=true` | Changed Flag Input + Modified Reference |
+
+新增的 `PullRequestCheckoutBanner` 仍通过真实 `IFeatureClient.GetBooleanValueAsync`，并让 Evaluation 返回值控制 Banner 业务结果。配置重命名仍使用 `GetValue<T>`，报告必须展示 `FeatureReview:DirectGetValue:*` 路径、`appsettings.json` 来源以及新的 Key/default 配对。
+
+正式 Head 结果仍是 41 个 Flag 实体、32 个确定 Key、54 条 Reference，但 Direct/Indirect 变为 6/48。确定性分布保持 24 Definite、21 Possible、9 Unresolved；Graph 为 350 Nodes / 644 Edges，Unresolved 38、Diagnostics 0。
+
+正式 Diff 的业务摘要为：
+
+- Added Flag Keys：2；
+- Removed Flag Keys：2；
+- Changed Flag Inputs：1；
+- References：1 Added / 1 Removed / 2 Modified；
+- 38 个既有 Unresolved 全部属于 `BOTH`，没有 PR-only Unresolved。
+
+Graph Evidence 层另有 28 Wrapper、2 Architecture Binding、8 Configuration Binding 变化。这些数字统计 Node/Edge Delta，不应解释成新增了 38 个业务 Feature Flag。
+
+正式产物：
+
+- [`reports/snapshot-pr-head.json`](reports/snapshot-pr-head.json)
+- [`reports/SNAPSHOT_PR_HEAD_REVIEW.md`](reports/SNAPSHOT_PR_HEAD_REVIEW.md)
+- [`reports/snapshot-main-to-pr.diff.json`](reports/snapshot-main-to-pr.diff.json)
+- [`reports/SNAPSHOT_MAIN_TO_PR_DIFF_REVIEW.md`](reports/SNAPSHOT_MAIN_TO_PR_DIFF_REVIEW.md)
+
+从 PR 工作树复现：
+
+```powershell
+.\scripts\Scan-PullRequestDiff.ps1 `
+  -HeadOutput .\reports\snapshot-pr-head-candidate.json `
+  -HeadReviewOutput .\reports\SNAPSHOT_PR_HEAD_CANDIDATE_REVIEW.md `
+  -DiffOutput .\reports\snapshot-main-to-pr-candidate.diff.json
+```
+
+脚本会显式 Restore/Build Scanner 和 V4 Solution，扫描当前工作树，渲染 Head Markdown，再以 `reports/snapshot-base-v4.json` 为 Base 生成 Diff JSON。它拒绝覆盖任何已有输出，不执行 Git Checkout，也不把 GitHub PR 元数据当成 Scanner 真值。

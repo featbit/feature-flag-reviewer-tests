@@ -10,7 +10,7 @@ public sealed class ConstructorInjectionEntry
         _evaluator = evaluator;
 
     public Task<bool> EvaluateAsync() =>
-        _evaluator.EvaluateAsync("acceptance.di.constructor", false);
+        _evaluator.EvaluateAsync("acceptance.di.constructor", true);
 }
 
 public sealed class KeyedConstructorEntry

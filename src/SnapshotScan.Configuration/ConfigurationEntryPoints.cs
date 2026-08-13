@@ -13,10 +13,10 @@ public sealed class ConfigurationEntryPoints(
     OpenFeatureBooleanGateway gateway,
     IFeatureClient client)
 {
-    // GetSection + IConfiguration indexer + GetValue<T>.
-    public Task<bool> EvaluateIndexerAsync() => gateway.EvaluateAsync(
-        configuration.GetSection("FeatureReview:DirectIndexer")["Key"]!,
-        configuration.GetValue<bool>("FeatureReview:DirectIndexer:DefaultValue"));
+    // PR removal: the endpoint remains callable, but it no longer evaluates a flag.
+    // Keeping the business entry makes the removed Reference easy to review in isolation.
+    public Task<bool> EvaluateIndexerAsync() =>
+        Task.FromResult(false);
 
     // Both key and default are read through GetValue<T>.
     public Task<bool> EvaluateGetValueAsync() => gateway.EvaluateAsync(
