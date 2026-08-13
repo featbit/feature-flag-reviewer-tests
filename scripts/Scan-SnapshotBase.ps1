@@ -4,7 +4,7 @@ param(
     [string]$ReviewerRoot = (Join-Path $PSScriptRoot '..\..\featbit-demo\feature-flag-reviewer'),
 
     [Parameter()]
-    [ValidateSet('V1', 'V2', 'V3')]
+    [ValidateSet('V1', 'V2', 'V3', 'V4')]
     [string]$BaseVersion = 'V1',
 
     [Parameter(Mandatory)]
@@ -19,6 +19,7 @@ $repositoryRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $reviewerRoot = [System.IO.Path]::GetFullPath($ReviewerRoot)
 $reviewerSolution = Join-Path $reviewerRoot 'FeatureFlagReviewer.slnx'
 $baseSolutionName = switch ($BaseVersion) {
+    'V4' { 'SnapshotBaseV4.slnx' }
     'V3' { 'SnapshotBaseV3.slnx' }
     'V2' { 'SnapshotBaseV2.slnx' }
     default { 'SnapshotBase.slnx' }

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../SnapshotScan.Configuration/SnapshotScan.Configuration.csproj" />
+    <ProjectReference Include="../SnapshotScan.Flags/SnapshotScan.Flags.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

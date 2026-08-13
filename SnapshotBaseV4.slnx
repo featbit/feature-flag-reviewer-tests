@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SnapshotScan.App/SnapshotScan.App.csproj" />
+    <Project Path="src/SnapshotScan.Configuration/SnapshotScan.Configuration.csproj" />
+    <Project Path="src/SnapshotScan.ControlFlow/SnapshotScan.ControlFlow.csproj" />
+    <Project Path="src/SnapshotScan.DependencyInjection/SnapshotScan.DependencyInjection.csproj" />
+    <Project Path="src/SnapshotScan.Dispatch/SnapshotScan.Dispatch.csproj" />
+    <Project Path="src/SnapshotScan.Flags/SnapshotScan.Flags.csproj" />
+  </Folder>
+</Solution>

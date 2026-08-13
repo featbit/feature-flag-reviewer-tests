@@ -2,24 +2,27 @@
 
 这个仓库用于让人直接核对 SnapshotScanner 的扫描结果是否符合源码事实。它没有自动断言项目，也不会替审阅者给出“通过”或“不通过”的结论。
 
-当前提供三个递进的扫描基线：
+当前提供四个递进的扫描基线：
 
 | 基线 | 扫描入口 | 验证重点 | 人读报告 |
 |---|---|---|---|
 | Base v1 | [`SnapshotBase.slnx`](SnapshotBase.slnx) | Direct + 参数化、多层、跨 Project Wrapper | [`SNAPSHOT_BASE_V1_REVIEW.md`](reports/SNAPSHOT_BASE_V1_REVIEW.md) |
 | Base v2 | [`SnapshotBaseV2.slnx`](SnapshotBaseV2.slnx) | Base v1 + Key/default 输入值流 + Evaluation 结果控制业务代码 | [`SNAPSHOT_BASE_V2_REVIEW.md`](reports/SNAPSHOT_BASE_V2_REVIEW.md) |
 | Base v3 | [`SnapshotBaseV3.slnx`](SnapshotBaseV3.slnx) | Base v2 + Interface / Virtual / Factory / Delegate / Lambda 静态分派 | [`SNAPSHOT_BASE_V3_REVIEW.md`](reports/SNAPSHOT_BASE_V3_REVIEW.md) |
+| Base v4 | [`SnapshotBaseV4.slnx`](SnapshotBaseV4.slnx) | Base v3 + Microsoft DI + Configuration / Options + 完整组合路径 | [`SNAPSHOT_BASE_V4_REVIEW.md`](reports/SNAPSHOT_BASE_V4_REVIEW.md) |
 
 建议先阅读本 README 中对应基线的场景，再逐个 Feature Flag 阅读 Markdown 报告。只有需要核对稳定 ID、完整 Graph 或 Unresolved 时，才查看 JSON。
 
 ## 工程布局
 
-| Project | Base v1 | Base v2 | Base v3 | 作用 |
-|---|:---:|:---:|:---:|---|
-| `SnapshotScan.Flags` | ✓ | ✓ | ✓ | 引用真实 OpenFeature 2.14.0，包含 Direct Evaluation、真实 Sink 和参数化 Wrapper |
-| `SnapshotScan.App` | ✓ | ✓ | ✓ | 跨 Project 调用 Wrapper，并包含一个同名 API 零误报样本 |
-| `SnapshotScan.ControlFlow` | — | ✓ | ✓ | 包含 Key/default 条件选择、Evaluation 返回值接收和受控业务代码 |
-| `SnapshotScan.Dispatch` | — | — | ✓ | 包含接口、抽象/虚方法、Factory、方法组、Lambda、Delegate 参数及开放分派边界 |
+| Project | Base v1 | Base v2 | Base v3 | Base v4 | 作用 |
+|---|:---:|:---:|:---:|:---:|---|
+| `SnapshotScan.Flags` | ✓ | ✓ | ✓ | ✓ | 引用真实 OpenFeature 2.14.0，包含 Direct Evaluation、真实 Sink 和参数化 Wrapper |
+| `SnapshotScan.App` | ✓ | ✓ | ✓ | ✓ | 跨 Project 调用 Wrapper，并包含一个同名 API 零误报样本 |
+| `SnapshotScan.ControlFlow` | — | ✓ | ✓ | ✓ | 包含 Key/default 条件选择、Evaluation 返回值接收和受控业务代码 |
+| `SnapshotScan.Dispatch` | — | — | ✓ | ✓ | 包含接口、抽象/虚方法、Factory、方法组、Lambda、Delegate 参数及开放分派边界 |
+| `SnapshotScan.Configuration` | — | — | — | ✓ | 包含 `IConfiguration`、环境配置文件、嵌套 Options 与 `[ConfigurationKeyName]` |
+| `SnapshotScan.DependencyInjection` | — | — | — | ✓ | 包含真实 Microsoft DI 注册、构造注入、Keyed、Factory、Enumerable、TryAdd 与显式解析 |
 
 Scanner 只做静态分析，不运行这些业务方法。报告中的“受控代码”表示该代码块在静态控制依赖上受到 Flag 结果影响，不表示某次真实运行一定执行了它。
 
@@ -396,6 +399,156 @@ LoadExternalStrategy().EvaluateAsync(
 
 报告可以展示源码中已知的 Alpha/Beta 目标，但这些 Reference 必须保持 `POSSIBLE`，并分别关联 `INCOMPLETE_DISPATCH_CANDIDATES`、`UNKNOWN_DELEGATE_TARGET` 或 `UNKNOWN_FACTORY_RESULT`。已知候选只是“当前源码内可能到达的路径”，不代表 Scanner 已证明运行时目标完整。
 
+## Base v4：Microsoft DI + Configuration / Options
+
+Base v4 是 Base v3 的增量，增加 [`SnapshotScan.Configuration`](src/SnapshotScan.Configuration) 和 [`SnapshotScan.DependencyInjection`](src/SnapshotScan.DependencyInjection)。它新增 **15 个 Key 可以静态确定的 Boolean Feature Flag**，总计应为 32 个确定 Key。
+
+| 新增 Key | 默认值 | 场景 | 预期 Reference / 结论 |
+|---|---:|---|---|
+| `acceptance.config.indexer` | `false` | `GetSection(...)["Key"]` + `GetValue<bool>` | 1 Indirect / Definite |
+| `acceptance.config.get-value` | `true` | Key/default 都由 `GetValue<T>` 读取 | 1 Indirect / Definite |
+| `acceptance.config.environment.base` | `false` | `appsettings.json` 环境候选 | 1 Indirect / Possible |
+| `acceptance.config.environment.development` | `true` | `appsettings.Development.json` 环境候选 | 1 Indirect / Possible |
+| `acceptance.config.environment.production` | `false` | `appsettings.Production.json` 环境候选 | 1 Indirect / Possible |
+| `acceptance.di.constructor` | `false` | Singleton 注册 + 普通构造注入 | 1 Indirect / Definite |
+| `acceptance.di.keyed` | `true` | `AddKeyedSingleton(..., "beta")` + `[FromKeyedServices("beta")]` | 1 Indirect / Definite |
+| `acceptance.di.factory` | `false` | Factory 有 Alpha/Beta 两个完整源码候选 | 1 Indirect / Possible |
+| `acceptance.di.enumerable` | `false` | 两个注册经 `IEnumerable<T>` 消费 | 1 Indirect / Possible |
+| `acceptance.di.try-add` | `true` | 已有 Alpha 后 `TryAdd` Beta，Beta 不生效 | 1 Indirect / Definite |
+| `acceptance.di.explicit` | `false` | `GetRequiredService<T>` 按最后注册选择 Beta | 1 Indirect / Definite |
+| `acceptance.di.dynamic-key` | `false` | 动态 Keyed Service key | 1 Indirect / Possible + `DI_DYNAMIC_SERVICE_KEY` |
+| `acceptance.combined.checkout.base` | `false` | Base Options 候选 + DI + 业务控制 | 2 Indirect / Possible |
+| `acceptance.combined.checkout.development` | `true` | Development Options 候选 + DI + 业务控制 | 2 Indirect / Possible |
+| `acceptance.combined.checkout.production` | `false` | Production Options 候选 + DI + 业务控制 | 2 Indirect / Possible |
+
+当前 Base v4 报告应为：32 个确定 Key、41 个 Flag 实体、54 条 Reference（5 Direct / 49 Indirect；24 Definite / 21 Possible / 9 Unresolved）、350 Nodes、647 Edges、38 个 Unresolved、0 Diagnostics。相对 Base v3，增量是 15 个确定 Key、18 个 Flag 实体和 21 条 Reference；多出的 3 个 `key = null` 实体分别来自动态配置路径及 Alpha/Beta 参数化实现的定义级未绑定表达式，不是新的业务 Feature Flag。
+
+### DI 场景：注册、选择与真实实现
+
+[`DependencyInjectionComposition.cs`](src/SnapshotScan.DependencyInjection/DependencyInjectionComposition.cs) 使用真实 Microsoft DI API：
+
+```csharp
+services.AddSingleton<IConstructorFlagEvaluator, AlphaFlagEvaluator>();
+
+services.AddKeyedSingleton<IKeyedFlagEvaluator, AlphaFlagEvaluator>("alpha");
+services.AddKeyedSingleton<IKeyedFlagEvaluator, BetaFlagEvaluator>("beta");
+
+services.AddTransient<IFactoryFlagEvaluator>(provider =>
+    useAlphaFactory
+        ? new AlphaFlagEvaluator(provider.GetRequiredService<OpenFeatureBooleanGateway>())
+        : new BetaFlagEvaluator(provider.GetRequiredService<OpenFeatureBooleanGateway>()));
+
+services.AddTransient<IEnumerableFlagEvaluator, AlphaFlagEvaluator>();
+services.AddTransient<IEnumerableFlagEvaluator, BetaFlagEvaluator>();
+
+services.AddTransient<ITryAddFlagEvaluator, AlphaFlagEvaluator>();
+services.TryAddTransient<ITryAddFlagEvaluator, BetaFlagEvaluator>();
+```
+
+人工检查每条 DI Reference 的“Microsoft DI 注册与 Service 选择”：
+
+1. 普通构造注入、静态 Keyed、TryAdd 和显式解析都应为 `DEFINITE`。
+2. 静态 Keyed 场景应同时展示注册中的 `key=beta` 和构造参数上的 `[FromKeyedServices("beta")]`。
+3. Factory 应展示一个 Factory 注册源码块和 Alpha/Beta 两个独立分派候选，不能只显示代表路径。
+4. `IEnumerable<T>` 应展示两个注册、两个实现和每个实现到真实 Gateway/Sink 的证据。
+5. `TryAdd` 必须选择先注册的 Alpha；显式非 Keyed 解析必须遵循最后注册语义选择 Beta。
+6. Composition Root 调用、构造注入或 `GetRequiredService<T>` 解析位置不应因为 Graph 中多条边而重复显示同一证据。
+
+动态 Keyed 解析故意不能静态确定：
+
+```csharp
+provider.GetRequiredKeyedService<IKeyedFlagEvaluator>(serviceKey)
+    .EvaluateAsync("acceptance.di.dynamic-key", false);
+```
+
+报告应保留仓库内 Alpha/Beta 两个已知候选，但整条 Reference 只能是 `POSSIBLE`，并关联 `DI_DYNAMIC_SERVICE_KEY`，不能猜测 `serviceKey`。
+
+### Configuration 场景：路径、来源文件与值配对
+
+[`ConfigurationEntryPoints.cs`](src/SnapshotScan.Configuration/ConfigurationEntryPoints.cs) 分别覆盖 Indexer、`GetSection` 和 `GetValue<T>`。三个配置文件提供有限环境候选：
+
+```text
+appsettings.json
+  acceptance.config.environment.base + false
+
+appsettings.Development.json
+  acceptance.config.environment.development + true
+
+appsettings.Production.json
+  acceptance.config.environment.production + false
+```
+
+报告中的“Configuration / Options 值来源”应为每个候选展示：
+
+- 完整配置路径；
+- `appsettings*.json` 相对来源文件；
+- 最终 `key:` 或 `default:` 值证据；
+- `IConfiguration` 读取或 Options 属性消费源码。
+
+Key/default 必须保持上述三组配对，不能出现 `base + true`、`development + false` 等笛卡尔积组合。Base 文件和两个环境覆盖文件都是运行时环境的有限候选，所以三条 Reference 都是 `POSSIBLE`。
+
+### Options：嵌套属性与 ConfigurationKeyName
+
+[`FeatureReviewOptions.cs`](src/SnapshotScan.Configuration/FeatureReviewOptions.cs) 使用嵌套 POCO，并把 `Key` 属性映射到 JSON 的 `flag-key`：
+
+```csharp
+public sealed class CheckoutFlagOptions
+{
+    [ConfigurationKeyName("flag-key")]
+    public string Key { get; set; } = string.Empty;
+
+    public bool DefaultValue { get; set; }
+}
+```
+
+绑定使用真实 `OptionsBuilder<T>.BindConfiguration(...)`：
+
+```csharp
+services.AddOptions<FeatureReviewOptions>()
+    .BindConfiguration("FeatureReview:Options");
+```
+
+组合候选的 Graph 和 Markdown 应把 `FeatureReview:Options:Checkout:flag-key`、`FeatureReview:Options:Checkout:DefaultValue`、绑定调用、`IOptions<FeatureReviewOptions>.Value` 属性消费和最终 Evaluation 放在同一条 Reference 中。三个环境的 Key/default 仍必须严格配对。
+
+### DI + Configuration + OpenFeature + 业务控制完整链路
+
+[`ConfiguredCheckoutEndpoint`](src/SnapshotScan.DependencyInjection/DependencyInjectionEntryPoints.cs) 是 Base v4 的主人工检查路径：
+
+```csharp
+var enabled = await _checkoutService.IsEnabledAsync();
+
+if (!enabled)
+{
+    return "legacy-checkout";
+}
+else
+{
+    return "configured-checkout";
+}
+```
+
+对 `acceptance.combined.checkout.base/development/production` 的入口 Reference，报告应按独立源码块展示：
+
+1. `ConfiguredCheckoutEndpoint.ExecuteAsync` 业务入口；
+2. `IConfiguredCheckoutService -> ConfiguredCheckoutService` 注册；
+3. Composition Root 调用和 `checkoutService` 构造注入；
+4. `BindConfiguration("FeatureReview:Options")`；
+5. 两条配置路径、来源文件和正确配对的最终值；
+6. `ConfiguredCheckoutService.IsEnabledAsync` 与参数化 Gateway；
+7. 真实 `IFeatureClient.GetBooleanValueAsync`；
+8. `var enabled = ...` 返回值接收语句；
+9. 完整 `if/else` 业务代码。
+
+### Configuration 负例：动态路径必须安全 Unresolved
+
+动态路径直接留在真实 OpenFeature Sink，Scanner 不读取任何运行时 Provider：
+
+```csharp
+client.GetBooleanValueAsync(configuration[configurationPath]!, false);
+```
+
+正确结果是保留安全表达式摘要 `configuration[configurationPath]`、源码相对链接和 `CONFIGURATION_DYNAMIC_PATH`。报告不得猜测值、读取环境变量或输出机器绝对路径。
+
 ## 两个负例边界
 
 ### 动态 Key：必须 Unresolved
@@ -431,7 +584,10 @@ client.GetBooleanValueAsync("acceptance.false-positive", false);
 5. Base v2 的“Evaluation 返回值流向与受控业务代码”是否分别展示返回值接收语句和完整控制块。
 6. Base v3 的“静态分派目标”是否列出全部有限候选，每个候选是否有自己的源码块与正确确定性。
 7. Base v3 的开放 Interface / Delegate / Factory 是否保持 `Possible` 并关联明确 Unresolved，而不是伪装成完整结果。
-8. 最后的 Unresolved 是否只对应动态值、定义级未绑定参数或明确分析边界。
+8. Base v4 的“Microsoft DI 注册与 Service 选择”是否展示真实注册、Composition Root、构造注入或显式解析，并遵守 Keyed、Factory、Enumerable、TryAdd 语义。
+9. Base v4 的“Configuration / Options 值来源”是否展示绑定调用、配置路径、相对来源文件、最终值和属性消费，且环境 Key/default 没有交叉污染。
+10. 组合 Reference 是否继续展示返回值接收语句与完整 `if/else`，动态 Service key 和动态配置路径是否关联明确 Unresolved。
+11. 最后的 Unresolved 是否只对应动态值、定义级未绑定参数或明确分析边界。
 
 JSON 中，输出侧证据使用现有 Graph 语义表达：
 
@@ -473,6 +629,16 @@ ControlCondition --GUARDS--> 所在业务成员
   -ReviewerRoot C:\Code\featbit\featbit-demo\feature-flag-reviewer `
   -Output .\reports\snapshot-base-v3-candidate.json `
   -ReviewOutput .\reports\SNAPSHOT_BASE_V3_CANDIDATE_REVIEW.md
+```
+
+执行 Base v4：
+
+```powershell
+.\scripts\Scan-SnapshotBase.ps1 `
+  -BaseVersion V4 `
+  -ReviewerRoot C:\Code\featbit\featbit-demo\feature-flag-reviewer `
+  -Output .\reports\snapshot-base-v4-candidate.json `
+  -ReviewOutput .\reports\SNAPSHOT_BASE_V4_CANDIDATE_REVIEW.md
 ```
 
 脚本会 Restore/Build 两边的 Solution，然后调用 `featbit-demo/feature-flag-reviewer` 编译出的真实 CLI 执行 `scan` 和 `render`。它会打印 JSON 与 Markdown 的 SHA-256，但不会比较 Golden，也不会产生精度断言。
