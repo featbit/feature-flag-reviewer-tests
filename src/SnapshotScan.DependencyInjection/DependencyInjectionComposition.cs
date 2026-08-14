@@ -43,7 +43,7 @@ public static class DependencyInjectionCompositionExtensions
         services.AddTransient<EnumerableEntry>();
         services.AddTransient<TryAddEntry>();
         services.AddTransient<ConfiguredCheckoutEndpoint>();
-        services.AddTransient<PullRequestCheckoutBanner>();
+        services.AddTransient<CheckoutSavingsBannerService>();
         return services;
     }
 }
